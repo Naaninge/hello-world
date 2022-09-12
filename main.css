@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+  }
+      .row{
+       border: 1px solid red;
+      }
+      .container{
+       border: 1px solid yellow;
+      }
+       .col-3,.col-2,.col,
+       .col-6,.col-4,.col-12,.col-5,.col-1{
+        border: 1px solid blue;
+       
+       } 
+       /*left column*/
+      .left-col .col-12{
+       height: 35vh;
+       
+      }
+      .left-col img{
+        height: 200px;
+        width:  200px;
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+
+      .left-col .row{
+        margin: 5px 0px;
+      }
+      .left-col .col-3{
+       height: 20vh;
+       margin:1px 3px 1px 3px;
+       
+      }
+      
+      /*center colunm*/
+      .center-col .col-2{
+        height: 30vh;
+        margin: 1px 4px 1px 4px;
+      }
+     .center-col img{
+         height: 60px;
+         width: 60px;
+         border-radius: 50%;
+     }
+
+     #background{
+        background: url('/images/blue_cloth_earings.jpg') no-repeat;
+        background-size:cover;
+
+     }
+      .center-col .row{
+       margin: 5px 0px;
+      }
+      /*Last colunm*/
+      .right-col .col-12{
+       height: 10vh;
+      }
+      .right-col .col-5{
+        height: 15vh;
+      }
+      .right-col .row{
+        margin:3px 0px;
+      }
+      .right-col .col-5{
+        margin: 0px 5px;
+      }
+      form {
+        margin: 10px 30px;
+      }
+      
+      /*navigation*/
+      .nav{
+        background-color: lightblue;
+       
+      }
+        li a{
+            color: white;
+        }
+       .navigation{
+        padding: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+       }
+       
+       .main{
+        height: 600px;
+       }
+       .navigation .col-3{
+        margin:0 3px;
+        height: 10vh;
+       }
+      .navigation a {
+        text-decoration: none;
+        text-align: center;
+        margin: 0 5px;
+    
+       }
+       .navigation .col{
+        margin-left:3px;
+        height: 10vh;
+       }
